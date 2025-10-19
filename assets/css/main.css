@@ -1140,9 +1140,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
@@ -1656,3 +1659,20 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+/* Centrerar och justerar loggan i Dimension */
+#header .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 6em;              /* samma storlek som tidigare cirkel */
+  height: 6em;
+  margin: 0 auto 2em auto; /* centrerar och ger lite mellanrum */
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.05); /* samma diskreta cirkel som original */
+}
+
+#header .logo img {
+  max-width: 70%;  /* anpassa bildens storlek inuti cirkeln */
+  height: auto;
+  display: block;
+}
