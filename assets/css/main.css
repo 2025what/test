@@ -1676,6 +1676,6 @@ input, select, textarea {
   height: auto;
   display: block;
 }
-header .logo {
+#header .logo {
   overflow: hidden;
 }
