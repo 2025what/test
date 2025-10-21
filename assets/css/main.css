@@ -1667,7 +1667,7 @@ input, select, textarea {
   width: 8em;              /* samma storlek som tidigare cirkel */
   height: 8em;
   margin: 0 auto 2em auto; /* centrerar och ger lite mellanrum */
-  border-radius: 50%;
+  border-radius: 80%;
   background: rgba(255, 255, 255, 0.05); /* samma diskreta cirkel som original */
 }
 
