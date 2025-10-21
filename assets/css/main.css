@@ -1676,3 +1676,6 @@ input, select, textarea {
   height: auto;
   display: block;
 }
+header .logo {
+  overflow: hidden;
+}
