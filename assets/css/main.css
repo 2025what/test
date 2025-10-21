@@ -1672,7 +1672,7 @@ input, select, textarea {
 }
 
 #header .logo img {
-  max-width: 70%;  /* anpassa bildens storlek inuti cirkeln */
+  max-width: 85%;  /* anpassa bildens storlek inuti cirkeln */
   height: auto;
   display: block;
 }
